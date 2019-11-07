@@ -52,5 +52,12 @@ pipeline {
         }
       }
     }
-}
+    stage("Successful"){
+      steps{
+        script {
+          sh "echo CICD Done."
+        }
+      }    
+    }
+  }
 }
