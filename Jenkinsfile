@@ -7,8 +7,8 @@ pipeline {
   agent any
   stages {
     stage('Cloning Git') {
-    checkout scm
       steps {
+        checkout scm
         git 'https://github.com/auasad/expressCart.git'
       }
     }
