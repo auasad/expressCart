@@ -2,7 +2,7 @@
     "cartTitle": "CLOTH",
     "cartDescription": "expressCart",
     "cartLogo": "",
-    "baseUrl": "http://35.239.241.119:1111",
+    "baseUrl": "http://35.239.241.119:8080",
     "emailHost": "smtp-mail.outlook.com",
     "emailPort": 587,
     "emailSecure": false,
