@@ -1,5 +1,3 @@
-## Maintainer Asad Ullah
-
 pipeline {
   environment {
     registry = "auasad/expresscart"
