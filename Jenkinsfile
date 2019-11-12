@@ -45,7 +45,7 @@ pipeline {
       steps{
       script {
         docker.withRegistry( '', registryCredential ) {
-          def dockerRun = 'docker run -p 8080:1111 -d --name expresscart-app --link mongodb:expressdb auasad/expresscart:${BUILD_NUMBER}'
+          def dockerRun = 'docker run -p 8080:1111 -d --name expresscart-app --link expressdb:mongodb auasad/expresscart:${BUILD_NUMBER}'
             sshagent(['instance-uat']) {
               sh "ssh -o StrictHostKeyChecking=no asad@10.128.0.3 ${dockerRun}"
            } }
