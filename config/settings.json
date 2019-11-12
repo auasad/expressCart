@@ -22,7 +22,6 @@
     "currencySymbol": "£",
     "paymentGateway": "stripe",
     "databaseConnectionString": "mongodb://expressdb:27017/expresscart",
-#    "databaseConnectionString": "mongodb://mongodb:27017/expresscart",
     "theme": "Cloth",
     "trackStock": false,
     "orderHook": "",
