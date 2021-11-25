@@ -30,35 +30,6 @@ The easiest way to get up and running is using Docker. Once the Docker CLI is in
 
 Visit: [http://127.0.0.1:1111/admin](http://127.0.0.1:1111/admin)
 
-## Email settings
 
-You will need to configure your SMTP details for expressCart to send email receipts to your customers.
-
-You will need to consult your email provider for the relevant details.
-
-##### Gmail settings
-
-- `Email SMTP Host` = smtp.gmail.com
-- `Email SMTP Port` = 465
-- `Email SMTP secure` = True/Checked
-- `Email SMTP Username` = example@gmail.com
-- `Email SMTP Password` = yourpassword (you may need to setup an application specific password for this to work)
-
-##### Zoho settings
-
-- `Email SMTP Host` = smtp.zoho.com
-- `Email SMTP Port` = 465
-- `Email SMTP secure` = True/Checked
-- `Email SMTP Username` = example@zoho.com
-- `Email SMTP Password` = yourpassword
-
-##### Outlook settings
-
-- `Email SMTP Host` = smtp-mail.outlook.com
-- `Email SMTP Port` = 587
-- `Email SMTP secure` = False/Unchecked
-- `Email SMTP Username` = example@outlook.com
-- `Email SMTP Password` = yourpassword
-
-You can use the `Send test email` button to ensure your email settings are correct.
+For more settings please switch to master branch.
 
