@@ -15,8 +15,8 @@ The easiest way to get up and running is using Docker. Once the Docker CLI is in
 
 1. clone the project by typing the commadn 'git clone git@github.com:auasad/expressCart.git'
 2. Change `/config/settings.json` - `"databaseConnectionString": "mongodb://mongodb:27017/expresscart"`
-3. Run: docker run --name expressdb -d mongo ## will pull and run mongodb container with the name expressdb
-4. Run: docker run -p 8080:1111 -d --name expresscart-app --link expressdb:mongodb auasad/expresscart ## will run the container from the image created by Dockerfile with name auasad/expresscart
+3. Run: `docker run --name expressdb -d mongo` ## will pull and run mongodb container with the name expressdb
+4. Run: `docker run -p 8080:1111 -d --name expresscart-app --link expressdb:mongodb auasad/expresscart` ## will run the container from the image created by Dockerfile with name auasad/expresscart
 5. Visit [http://127.0.0.1:8080](http://127.0.0.1:8080) in your browser
 
 ### Docker-compose
